@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/image-1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  padding: 20px 25px;
+}
+
+.heading-part {
+  display: flex;
+}
+
+.heading-part span {
+  margin-left: 10px;
+  font-size: 30px;
+  background-color: aliceblue;
+  padding: 4px 15px;
+  border-radius: 7px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.heading {
+  color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.container label {
+  color: darkgreen;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.container input {
+  padding: 10px 10px;
+  margin: 10px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.celsius-part,
+.kelvin-part,
+.fahrenheit-part {
+  position: absolute;
+}
+
+.icon {
+  font-size: 25px;
+  position: relative;
+  right: 11%;
+  color: blue;
+  font-weight: bold;
+}
